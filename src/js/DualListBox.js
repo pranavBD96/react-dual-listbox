@@ -706,6 +706,7 @@ class DualListBox extends React.Component {
      * @returns {React.Component}
      */
     render() {
+        console.log('rendering dlb');
         const {
             alignActions,
             availableRef,
