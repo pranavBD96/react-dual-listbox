@@ -757,7 +757,7 @@ class DualListBox extends React.Component {
 
         return (
             <div className={className} id={id}>
-                {this.renderListBox('available', availableOptions, availableRef, actionsRight)}
+                {/* {this.renderListBox('available', availableOptions, availableRef, actionsRight)}
                 {alignActions === ALIGNMENTS.MIDDLE ? (
                     <div className="rdl-actions">
                         {actionsRight}
@@ -771,7 +771,7 @@ class DualListBox extends React.Component {
                         {makeAction('down')}
                     </div>
                 ) : null}
-                <input disabled={disabled} name={name} type="hidden" value={value} />
+                <input disabled={disabled} name={name} type="hidden" value={value} /> */}
             </div>
         );
     }
