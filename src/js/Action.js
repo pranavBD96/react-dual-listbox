@@ -98,13 +98,13 @@ class Action extends React.Component {
 
         return (
             <button
-                aria-label={label}
-                className={className}
-                disabled={disabled}
-                id={id}
-                title={label}
-                type="button"
-                onClick={this.onClick}
+                // aria-label={label}
+                // className={className}
+                // disabled={disabled}
+                // id={id}
+                // title={label}
+                // type="button"
+                // onClick={this.onClick}
             >
                 {this.renderIcons()}
             </button>
