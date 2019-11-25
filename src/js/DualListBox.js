@@ -754,6 +754,7 @@ class DualListBox extends React.Component {
             'rdl-align-top': alignActions === ALIGNMENTS.TOP,
         });
         const value = this.getFlatOptions(selected).join(',');
+        console.log('value is ' + value);
 
         return (
             <div className={className} id={id}>
